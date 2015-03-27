@@ -1,4 +1,5 @@
 /*
+  Author: Joel F. Malinao
   Package Name: mongoose-bcrypt-compare
   Dependency Package: bcrypt
 */
