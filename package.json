@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-bcrypt-compare",
+  "version": "1.0.0",
+  "description": "Makes checking bcrypt hashed passwords easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joemalski/mongoose-bcrypt-compare.git"
+  },
+  "keywords": [
+    "mongoose",
+    "bcrypt",
+    "compare",
+    "hash"
+  ],
+  "author": "Joel Malinao <joe.malski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joemalski/mongoose-bcrypt-compare/issues"
+  },
+  "homepage": "https://github.com/joemalski/mongoose-bcrypt-compare"
+}
