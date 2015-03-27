@@ -30,4 +30,4 @@ function checkPassword(pwdToCompare, hashedPassword){
   return returnRes;
 }
 
-module.exports = checkEachHash;
+module.exports.checkEachHash = checkEachHash;
