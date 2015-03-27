@@ -9,6 +9,7 @@ npm install mongoose-bcrypt-compare
 
 ## Usage
 
+```javascript
 checkEachHash(passwordToCompare, dbResultSet)
 
 var compareHash = require('mongoose-bcrypt-compare');
@@ -21,6 +22,7 @@ PasswordModel.find({}, {_id: 0, password: 1}, function(err, hash){
     res.render('findpassword', {check_password: result});
   }
 });
+```
 
 ## Release History
 
