@@ -7,6 +7,9 @@ Makes checking bcrypt hashed passwords easier.
 
 npm install mongoose-bcrypt-compare
 
+## Dependencies
+bcrypt
+
 ## Usage
 
 ```javascript
