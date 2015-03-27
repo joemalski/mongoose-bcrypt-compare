@@ -15,13 +15,13 @@ bcrypt
 ```javascript
 checkEachHash(passwordToCompare, dbResultSet)
 
-var compareHash = require('mongoose-bcrypt-compare');
+var compare = require('mongoose-bcrypt-compare');
 
 // where `hash` is a result from db
 PasswordModel.find({}, {_id: 0, password: 1}, function(err, hash){
   if(!err) {
     var result = '';
-    result = compareHash(req.body.findpwd, hash);
+    result = compare.checkEachHash(req.body.findpwd, hash);
     res.render('findpassword', {check_password: result});
   }
 });
