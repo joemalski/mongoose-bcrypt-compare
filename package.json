@@ -1,6 +1,6 @@
 {
   "name": "mongoose-bcrypt-compare",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Makes checking bcrypt hashed passwords easier.",
   "main": "index.js",
   "scripts": {
