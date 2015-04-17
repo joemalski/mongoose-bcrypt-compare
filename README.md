@@ -19,6 +19,8 @@ passwordToCompare -> is the string password to be compared to the hash
 dbResultSet -> the json result set (the actual hashed password)
 showLog -> shows the log in the node.js server
 
+returns-> true/false
+
 var compare = require('mongoose-bcrypt-compare');
 
 // where `hash` is a json result from db
