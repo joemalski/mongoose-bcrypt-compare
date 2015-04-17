@@ -5,10 +5,15 @@
 */
 var bcrypt = require('bcrypt');
 
-var checkEachHash = function(pwdToCompare, hash){
+var checkEachHash = function(pwdToCompare, hash, showLog){
   var status = '';
   for(var attr in hash){      
     status = checkPassword(pwdToCompare, hash[attr].password);
+    
+    if(showLog){
+      console.log('password string: ' + pwdToCompare + '  ' +'hash password: '+ hash[attr].password + ' -> ' + status);
+    }
+
     if(status == true) 
       return status;
     else if(attr >= hash.length - 1){
