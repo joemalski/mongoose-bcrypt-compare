@@ -13,7 +13,11 @@ bcrypt
 ## Usage
 
 ```javascript
-checkEachHash(passwordToCompare, dbResultSet)
+checkEachHash(passwordToCompare, dbResultSet, showLog)
+
+passwordToCompare -> is the string password to be compared to the hash
+dbResultSet -> the json result set (the actual hashed password)
+showLog -> shows the log in the node.js server
 
 var compare = require('mongoose-bcrypt-compare');
 
