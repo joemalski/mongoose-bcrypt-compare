@@ -1,7 +1,7 @@
 mongoose-bcrypt-compare
 =======================
 
-Utility for checking multiple password in db.
+Utility for checking multiple passwords hashed in bcrypt.
 
 ## Installation
 
@@ -17,7 +17,7 @@ checkEachHash(passwordToCompare, dbResultSet)
 
 var compare = require('mongoose-bcrypt-compare');
 
-// where `hash` is a result from db
+// where `hash` is a json result from db
 PasswordModel.find({}, {_id: 0, password: 1}, function(err, hash){
   if(!err) {
     var result = '';
