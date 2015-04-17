@@ -27,7 +27,7 @@ var compare = require('mongoose-bcrypt-compare');
 PasswordModel.find({}, {_id: 0, password: 1}, function(err, hash){
   if(!err) {
     var result = '';
-    result = compare.checkEachHash(req.body.findpwd, hash);
+    result = compare.checkEachHash(req.body.findpwd, hash, 1);
     res.render('findpassword', {check_password: result});
   }
 });
