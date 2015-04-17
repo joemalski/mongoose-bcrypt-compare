@@ -1,7 +1,7 @@
 mongoose-bcrypt-compare
 =======================
 
-Utility for checking multiple passwords hashed in bcrypt.
+Utility for checking multiple passwords hashed in bcrypt.  Enables you to check if a certain string is already used as a password.
 
 ## Installation
 
