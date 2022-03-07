@@ -36,4 +36,4 @@ PasswordModel.find({}, {_id: 0, password: 1}, function(err, hash){
 ## Release History
 0.1.2 - initial release<br>
 0.1.3 - added show log<br>
-0.1.4 - just edit readme
+0.1.4 - just edit readme<br>
